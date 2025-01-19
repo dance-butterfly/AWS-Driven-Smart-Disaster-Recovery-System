@@ -1,0 +1,14 @@
+{
+    "IAMRoles": [
+      {
+        "RoleName": "AWSBackupRole",
+        "Description": "Role for managing AWS Backup resources",
+        "Permissions": ["backup:*"]
+      },
+      {
+        "RoleName": "AWSDRSRole",
+        "Description": "Role for managing AWS Elastic Disaster Recovery resources",
+        "Permissions": ["drs:*"]
+      }
+    ]
+  }

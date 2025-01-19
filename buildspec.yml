@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      python: 3.x
+    commands:
+      - pip install boto3
+  build:
+    commands:
+      - echo "Building disaster recovery setup"
+      - python setup.py
+artifacts:
+  files:
+    - '**/*'

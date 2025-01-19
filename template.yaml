@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  BackupPlan:
+    Type: AWS::Backup::BackupPlan
+    Properties:
+      BackupPlan: {}
+  DisasterRecovery:
+    Type: AWS::ElasticDisasterRecovery::ReplicationConfigurationTemplate
+    Properties:
+      ReplicationConfigurationTemplate: {}
