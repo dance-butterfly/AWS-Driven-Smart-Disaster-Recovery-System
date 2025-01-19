@@ -46,6 +46,29 @@ This solution prioritizes ease of deployment and cost efficiency, making it part
 - Route 53 health checks and DNS failover ensure seamless traffic redirection during primary region failures.
 
 ---
+### File Structure 
+
+AWS-DR-System/
+├── README.md
+├── backup_config.py
+├── drs_failover.py
+├── route53_health_check.py
+├── cloudwatch_alarms.py
+├── setup/
+│   ├── iam_roles.json
+│   ├── policies/
+│   │   ├── backup_policy.json
+│   │   ├── drs_policy.json
+│   │   ├── route53_policy.json
+│   │   └── cloudwatch_policy.json
+├── pipeline/
+│   ├── buildspec.yml
+│   └── template.yaml
+└── docs/
+    ├── architecture_diagram.png
+    ├── setup_instructions.md
+    ├── troubleshooting.md
+    
 
 ## Prerequisites
 
