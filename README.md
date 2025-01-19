@@ -4,7 +4,7 @@
 
 This project demonstrates the implementation of a smart disaster recovery (DR) system leveraging AWS services to provide a cost-efficient, scalable, and automated solution for enterprise use cases. Targeted primarily at mid-to-large enterprises, managed service providers, and industries with strict uptime requirements (e.g., finance, healthcare, and e-commerce), this solution ensures business continuity through advanced automation and monitoring capabilities. Designed to minimize downtime and ensure business continuity, the system incorporates AWS-native tools such as Backup, Elastic Disaster Recovery (DRS), S3, Route 53, and CloudWatch. 
 
-### What Sets This Project Apart?
+### What sets this project apart?
 This solution prioritizes ease of deployment and cost efficiency, making it particularly appealing for enterprises aiming to leverage AWS free-tier resources while maintaining high reliability. Compared to other solutions, it simplifies disaster recovery setup with AWS-native automation, ensuring minimal manual intervention while providing robust monitoring and failover mechanisms. By focusing on AWS services, this system eliminates reliance on third-party tools, reducing complexity and enhancing integration within AWS environments. With automated failover and detailed monitoring, the system ensures minimal manual intervention and robust disaster recovery readiness.
 
 ---
