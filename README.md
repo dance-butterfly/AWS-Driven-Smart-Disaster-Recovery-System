@@ -183,5 +183,5 @@ To automate the deployment process, set up a pipeline in AWS CodePipeline:
 
 ## About the Developer
 
-Developed by Russhi Gibbs, an experienced cloud solutions architect specializing in AWS. This project highlights expertise in designing scalable, cost-effective disaster recovery solutions leveraging AWS services. The project idea was formulated and refined using AI tools to ensure quality and efficiency.
+Developed by Russhi Gibbs, an experienced cloud solutions architect specializing in AWS. This project highlights expertise in designing scalable, cost-effective disaster recovery solutions leveraging AWS services. The project idea was formulated and refined using AI tools to ensure quality and efficiency. No code was created by AI tools for this project, it is my original work
 
